@@ -12,8 +12,8 @@ public class Post {
     private RepostsInfo repostsInfo;
     private ViewsInfo viewsInfo;
     private GeoInfo geoInfo;
-    private int canPin;
-    private int canDelete;
+    private boolean canPin;
+    private boolean canDelete;
     private boolean bookmarks;
 
     public int getPostId() {
@@ -104,19 +104,19 @@ public class Post {
         this.geoInfo = geoInfo;
     }
 
-    public int getCanPin() {
+    public boolean getCanPin() {
         return canPin;
     }
 
-    public void setCanPin(int canPin) {
+    public void setCanPin(boolean canPin) {
         this.canPin = canPin;
     }
 
-    public int getCanDelete() {
+    public boolean getCanDelete() {
         return canDelete;
     }
 
-    public void setCanDelete(int canDelete) {
+    public void setCanDelete(boolean canDelete) {
         this.canDelete = canDelete;
     }
 
