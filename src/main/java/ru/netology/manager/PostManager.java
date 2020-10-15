@@ -8,6 +8,6 @@ public class PostManager {
     }
 
     public Post[] search(int ownerWallId, String domain, String query, boolean ownersOnly, int count, int offset) {
-        return search();
+        return null;
     }
 }
